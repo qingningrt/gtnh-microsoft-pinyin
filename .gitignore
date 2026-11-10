@@ -1,0 +1,21 @@
+# 第三方二进制
+tools/*.exe
+*.exe
+
+# 导入过程中的临时文件与备份
+_work.lex
+backup/
+*.lex
+*.lex.bak
+
+# Python
+__pycache__/
+*.pyc
+vendor/
+.pypinyin/
+
+# 编辑器
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
