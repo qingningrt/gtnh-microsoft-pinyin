@@ -34,9 +34,18 @@
 
 大部分"GTNH 词库"给的是前者，所以导入后没有任何缩写效果。本仓库做的是后者。
 
+## 下载
+
+| 文件 | 大小 | 说明 |
+| --- | --- | --- |
+| [gtnh-microsoft-pinyin-full-v1.0.0.zip](../../releases/download/v1.0.0/gtnh-microsoft-pinyin-full-v1.0.0.zip) | 30.9 MB | **推荐**。含导入工具，解压即用 |
+| [gtnh-microsoft-pinyin-lite-v1.0.0.zip](../../releases/download/v1.0.0/gtnh-microsoft-pinyin-lite-v1.0.0.zip) | 29 KB | 只有短语和脚本；工具需自行下载放进 `tools\` |
+
+最新版本见 [Releases](../../releases)。
+
 ## 快速开始
 
-1. 到 [Releases](../../releases) 下载 `GTNH微软拼音简拼包.zip`，解压到任意目录
+1. 下载上面的 **full** 包，解压到任意目录（别放 `C:\Program Files` 这类要管理员权限的地方）
 2. 双击 **`1-一键导入.bat`**（会先自动备份你现有的自定义短语）
 3. **切换一次输入法**（`Alt+Shift` 或 `Win+空格`，切到英文再切回微软拼音）
 4. 记事本里输入 `qys`，出"氢元素"就成功了
